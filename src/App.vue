@@ -1,19 +1,19 @@
 <script setup>
-import { RouterView } from 'vue-router'
-import Toast from 'primevue/toast'
+import { RouterView } from "vue-router";
+import Toast from "primevue/toast";
 
-import { onMounted, ref } from 'vue'
+import { onMounted, ref } from "vue";
 
-const isMounted = ref(false)
+const isMounted = ref(false);
 
 onMounted(async () => {
-  isMounted.value = true
-})
+  isMounted.value = true;
+});
 </script>
 
 <template>
   <div class="h-screen">
     <Toast position="bottom-right" />
-    <RouterView/>
+    <RouterView />
   </div>
 </template>

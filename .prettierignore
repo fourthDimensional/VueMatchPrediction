@@ -1,0 +1,13 @@
+# Ignore artifacts:
+.vscode/
+node_modules/
+.env
+# Ignore build output:
+dist/
+build/
+# Ignore coverage output:
+coverage/
+# Ignore local configuration files:
+.vscode/
+# Ignore temporary files:
+*.tmp
